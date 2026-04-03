@@ -1,8 +1,14 @@
 import { Star, Bug, GitPullRequest, MessageSquare } from "lucide-react";
 
 const ways = [
-  { icon: <Star className="h-6 w-6" />, text: "Dê uma ⭐ nos repos que curtir" },
-  { icon: <Bug className="h-6 w-6" />, text: "Abra issues com bugs ou sugestões" },
+  {
+    icon: <Star className="h-6 w-6" />,
+    text: "Dê uma ⭐ nos repos que curtir",
+  },
+  {
+    icon: <Bug className="h-6 w-6" />,
+    text: "Abra issues com bugs ou sugestões",
+  },
   { icon: <GitPullRequest className="h-6 w-6" />, text: "Envie pull requests" },
   { icon: <MessageSquare className="h-6 w-6" />, text: "Compartilhe ideias" },
 ];
@@ -16,7 +22,8 @@ const ContributeSection = () => {
           🤝 Como <span className="text-gradient">contribuir</span>
         </h2>
         <p className="text-muted-foreground mb-12 text-lg">
-          Nenhuma contribuição é pequena demais — <span className="text-primary font-semibold">crescemos juntos!</span>
+          Nenhuma contribuição é pequena demais -{" "}
+          <span className="text-primary font-semibold">crescemos juntos!</span>
         </p>
 
         <div className="grid sm:grid-cols-2 gap-4">

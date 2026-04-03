@@ -11,8 +11,7 @@ const Footer = () => {
             className="text-primary hover:underline font-semibold"
           >
             Caramelo Tech
-          </a>{" "}
-          — Fortaleza, CE 🇧🇷
+          </a>
         </p>
       </div>
     </footer>

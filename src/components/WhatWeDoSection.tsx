@@ -15,7 +15,8 @@ const WhatWeDoSection = () => {
           👩‍💻 O que <span className="text-gradient">fazemos</span>
         </h2>
         <p className="text-muted-foreground text-center mb-16 text-lg">
-          A maioria dos nossos projetos são <span className="text-primary font-semibold">open source</span> — 
+          A maioria dos nossos projetos são{" "}
+          <span className="text-primary font-semibold">open source</span> -
           sinta-se à vontade para explorar, aprender e contribuir!
         </p>
 
@@ -25,7 +26,9 @@ const WhatWeDoSection = () => {
               key={i}
               className="flex items-center gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-muted/50 transition-all duration-300 group"
             >
-              <span className="text-3xl group-hover:scale-110 transition-transform">{item.emoji}</span>
+              <span className="text-3xl group-hover:scale-110 transition-transform">
+                {item.emoji}
+              </span>
               <span className="text-foreground font-medium">{item.text}</span>
             </div>
           ))}

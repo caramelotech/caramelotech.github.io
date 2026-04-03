@@ -29,11 +29,14 @@ const HeroSection = () => {
           Um cantinho acolhedor da internet onde amigos se juntam para{" "}
           <span className="text-primary font-semibold">aprender</span>,{" "}
           <span className="text-primary font-semibold">construir</span> e{" "}
-          <span className="text-primary font-semibold">compartilhar conhecimento</span> 💛
+          <span className="text-primary font-semibold">
+            compartilhar conhecimento
+          </span>{" "}
+          💛
         </p>
 
         <p className="text-muted-foreground mb-8">
-          🌍 Fortaleza, Ceará — abertos ao mundo 🌎✨
+          🌍 Fortaleza, Ceará - abertos ao mundo 🌎✨
         </p>
 
         <div className="flex flex-wrap gap-4 justify-center">
@@ -42,7 +45,11 @@ const HeroSection = () => {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-caramelo-dark font-semibold text-lg px-8 animate-pulse-glow"
           >
-            <a href="https://github.com/caramelotech" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/caramelotech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="mr-2 h-5 w-5" />
               Ver no GitHub
             </a>
@@ -53,7 +60,11 @@ const HeroSection = () => {
             size="lg"
             className="border-primary/40 text-primary hover:bg-primary/10 font-semibold text-lg px-8"
           >
-            <a href="https://www.instagram.com/caramelo_tech" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/caramelo_tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Instagram className="mr-2 h-5 w-5" />
               Instagram
             </a>

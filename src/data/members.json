@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Ana Souza",
+    "description": "Desenvolvedora fullstack apaixonada por open source e café forte.",
+    "tags": ["Frontend", "React", "TypeScript"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Ana",
+    "linkedin": "https://linkedin.com/in/example",
+    "instagram": "https://instagram.com/example"
+  },
+  {
+    "name": "Lucas Oliveira",
+    "description": "Designer que transforma ideias malucas em interfaces bonitas.",
+    "tags": ["UI/UX", "Figma", "Design System"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Lucas",
+    "website": "https://example.com"
+  },
+  {
+    "name": "Mariana Costa",
+    "description": "QA ninja que encontra bugs antes deles existirem.",
+    "tags": ["QA", "Testes", "Automação"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Mariana",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+  {
+    "name": "Pedro Santos",
+    "description": "Backend dev que vive no terminal e sonha em Clojure.",
+    "tags": ["Backend", "Clojure", "Java"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Pedro",
+    "instagram": "https://instagram.com/example",
+    "website": "https://example.com"
+  },
+  {
+    "name": "Camila Ferreira",
+    "description": "DevOps que automatiza tudo e ainda tem tempo pra um açaí.",
+    "tags": ["DevOps", "Docker", "AWS"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Camila",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+  {
+    "name": "Rafael Lima",
+    "description": "Mobile dev que faz apps rodarem lisinho até no celular da vó.",
+    "tags": ["Mobile", "React Native", "TypeScript"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Rafael",
+    "instagram": "https://instagram.com/example",
+    "linkedin": "https://linkedin.com/in/example",
+    "website": "https://example.com"
+  }
+]

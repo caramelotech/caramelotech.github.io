@@ -3,7 +3,7 @@
     "name": "Daniele Araújo",
     "description": "Entusiasta em IoT, apaixonada por open source e um bom café.",
     "tags": ["Backend", "Java", "Clojure"],
-    "photo": "./public/members/dannie.png",
+    "photo": "/members/dannie.png",
     "website": "https://felurye.com.br",
     "linkedin": "https://linkedin.com/in/felurye",
     "instagram": "https://instagram.com/felurye"

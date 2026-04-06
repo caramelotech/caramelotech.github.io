@@ -1,6 +1,7 @@
 import { Globe, Linkedin, Instagram } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import type { Member } from "@/types/member";
+import { resolveImagePath } from "@/utils/path";
 
 interface SocialLinkProps {
   href: string;
@@ -36,7 +37,7 @@ const MemberCard = ({ member }: { member: Member }) => {
   return (
     <div className="card-gradient rounded-xl border border-border p-6 flex flex-col items-center text-center gap-4 h-full">
       <Avatar className="h-20 w-20 border-2 border-primary/30">
-        <AvatarImage src={member.photo} alt={member.name} />
+        <AvatarImage src={resolveImagePath(member.photo)} alt={member.name} />
         <AvatarFallback className="bg-muted text-foreground text-lg font-bold">
           {initials}
         </AvatarFallback>

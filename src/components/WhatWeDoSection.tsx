@@ -1,26 +1,4 @@
-const activities = [
-  { emoji: "🤝", text: "Trocar conhecimento e experiências" },
-  { emoji: "🛠️", text: "Construir projetos juntos" },
-  { emoji: "🌱", text: "Aprender novas tecnologias" },
-  { emoji: "💡", text: "Experimentar com ideias" },
-  { emoji: "🧪", text: "Contribuir para open source" },
-];
-
-const people = [
-  { emoji: "🧪", label: "QA Engineers" },
-  { emoji: "🖥️", label: "Backend Devs" },
-  { emoji: "🎨", label: "Frontend Devs" },
-  { emoji: "🔄", label: "Fullstack Devs" },
-  { emoji: "✏️", label: "Designers" },
-];
-
-const techs = [
-  { emoji: "⚡", label: "JavaScript" },
-  { emoji: "☕", label: "Java" },
-  { emoji: "🧬", label: "Clojure" },
-  { emoji: "🐘", label: "PHP" },
-  { emoji: "🦀", label: "TypeScript" },
-];
+import { activities, people, techs } from "@/data/whatWeDo";
 
 const WhatWeDoSection = () => {
   return (

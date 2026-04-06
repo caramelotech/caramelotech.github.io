@@ -2,7 +2,7 @@
   {
     "name": "Daniele Araújo",
     "description": "Entusiasta de IoT e open source, movida a café e bons doramas. ☕",
-    "tags": ["Backend", "Java", "Clojure"],
+    "tags": ["Backend", "Java", "Clojure", "Testes de Software"],
     "photo": "/members/dannie.png",
     "website": "https://felurye.com.br",
     "linkedin": "https://linkedin.com/in/felurye",
@@ -20,40 +20,40 @@
   {
     "name": "Joice Nunes",
     "description": "Dev fullstack em crise. Apaixonada por bichinhos, arte e comida boa.",
-    "tags": ["Typescript", "C#", "Surtos"],
+    "tags": ["Frontend", "Typescript", "C#", "Surtos"],
     "photo": "/members/digdjoi.png",
     "linkedin": "https://www.linkedin.com/in/joicenunes",
     "github": "https://github.com/joicenunes"
   },
   {
     "name": "Lucas Gomes",
-    "description": "QA em transição para dev, apaixonado por automação e café. Sempre buscando aprender algo novo.",
+    "description": "QA → dev, movido por automação, café e aprendizado constante. ☕🚀",
     "tags": ["QA/QC", "Cypress", "TypeScript"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Lucas",
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Chase  ",
     "linkedin": "https://www.linkedin.com/in/lucasgdo",
     "github": "https://github.com/lucasgdo"
   },
   {
     "name": "Samantha Kellen",
-    "description": "Python dev e QA, apaixonada por automação. Sempre buscando aprender algo novo e enfrentar desafios com entusiasmo.",
+    "description": "QA e automação para simplificar e otimizar. Entre códigos, comida boa, HQs e novas descobertas.",
     "tags": ["QA", "RPA", "Python"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Camila",
+    "photo": "/members/sam.png",
     "linkedin": "https://www.linkedin.com/in/samantha-kellen",
     "github": "https://github.com/SamGomes52"
   },
   {
     "name": "Vitor Gonçalves",
-    "description": "Explorando o mundo de realtime (Unreal e Unity), criando workflows e ferramentas com Python - sempre aprendendo algo novo no caminho. 🎮🐍",
-    "tags": ["3D Artist", "Generalist Character", "Maya"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Pedro",
-    "site": "https://www.artstation.com/vm21",
+    "description": "Explorando o mundo de realtime, criando workflows e ferramentas com Python.",
+    "tags": ["3D Artist", "Generalist", "Unreal", "Unity", "Maya"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=JD&earringsProbability=0&featuresProbability=0&glassesProbability=0&hairProbability=100&hair=short17&hairColor=6a4e35",
+    "website": "https://www.artstation.com/vm21",
     "github": "https://github.com/vitormoreira3d"
   },
   {
     "name": "Natanael Ferreira",
-    "description": "Ilustrador e aventureiro do código, explorando o mundo do Java e Figma. Apaixonado por criar arte e software que encantam.",
-    "tags": ["Ilustrador", "React", "Java"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Rafael",
+    "description": "Ilustrador e aventureiro do código. Apaixonado por criar arte e software que encantam.",
+    "tags": ["Ilustrador", "Javascript", "Java"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Easton&earringsProbability=0&featuresProbability=0&glassesProbability=0&hairProbability=100&hair=short17&hairColor=4D3723",
     "linkedin": "https://www.linkedin.com/in/natanael-ferreira-soares-46966a173/",
     "github": "https://github.com/Zaethyr"
   }

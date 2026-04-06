@@ -6,4 +6,5 @@ export interface Member {
   website?: string;
   linkedin?: string;
   instagram?: string;
+  github?: string;
 }

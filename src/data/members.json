@@ -1,49 +1,60 @@
 [
   {
     "name": "Daniele Araújo",
-    "description": "Entusiasta em IoT, apaixonada por open source e um bom café.",
+    "description": "Entusiasta de IoT e open source, movida a café e bons doramas. ☕",
     "tags": ["Backend", "Java", "Clojure"],
     "photo": "/members/dannie.png",
     "website": "https://felurye.com.br",
     "linkedin": "https://linkedin.com/in/felurye",
-    "instagram": "https://instagram.com/felurye"
+    "instagram": "https://instagram.com/felurye",
+    "github": "https://github.com/felurye"
   },
   {
-    "name": "Lucas Oliveira",
-    "description": "Designer que transforma ideias malucas em interfaces bonitas.",
-    "tags": ["UI/UX", "Figma", "Design System"],
+    "name": "Lucas Zacarias",
+    "description": "noHello, please! QA-focused, explorando melhorias de sistemas com Cypress e Maizena. Gamer e Coffeelover. ☕❤️",
+    "tags": ["QA/QC", "Cypress", "Automação"],
+    "photo": "/members/haiaiel.png",
+    "linkedin": "https://www.linkedin.com/in/lucas-zacarias",
+    "github": "https://github.com/zacarias96"
+  },
+  {
+    "name": "Joice Nunes",
+    "description": "Dev fullstack em crise. Apaixonada por bichinhos, arte e comida boa.",
+    "tags": ["Typescript", "C#", "Surtos"],
+    "photo": "/members/digdjoi.png",
+    "linkedin": "https://www.linkedin.com/in/joicenunes",
+    "github": "https://github.com/joicenunes"
+  },
+  {
+    "name": "Lucas Gomes",
+    "description": "QA em transição para dev, apaixonado por automação e café. Sempre buscando aprender algo novo.",
+    "tags": ["QA/QC", "Cypress", "TypeScript"],
     "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Lucas",
-    "website": "https://example.com"
+    "linkedin": "https://www.linkedin.com/in/lucasgdo",
+    "github": "https://github.com/lucasgdo"
   },
   {
-    "name": "Mariana Costa",
-    "description": "QA ninja que encontra bugs antes deles existirem.",
-    "tags": ["QA", "Testes", "Automação"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Mariana",
-    "linkedin": "https://linkedin.com/in/example"
-  },
-  {
-    "name": "Pedro Santos",
-    "description": "Backend dev que vive no terminal e sonha em Clojure.",
-    "tags": ["Backend", "Clojure", "Java"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Pedro",
-    "instagram": "https://instagram.com/example",
-    "website": "https://example.com"
-  },
-  {
-    "name": "Camila Ferreira",
-    "description": "DevOps que automatiza tudo e ainda tem tempo pra um açaí.",
-    "tags": ["DevOps", "Docker", "AWS"],
+    "name": "Samantha Kellen",
+    "description": "Python dev e QA, apaixonada por automação. Sempre buscando aprender algo novo e enfrentar desafios com entusiasmo.",
+    "tags": ["QA", "RPA", "Python"],
     "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Camila",
-    "linkedin": "https://linkedin.com/in/example"
+    "linkedin": "https://www.linkedin.com/in/samantha-kellen",
+    "github": "https://github.com/SamGomes52"
   },
   {
-    "name": "Rafael Lima",
-    "description": "Mobile dev que faz apps rodarem lisinho até no celular da vó.",
-    "tags": ["Mobile", "React Native", "TypeScript"],
+    "name": "Vitor Gonçalves",
+    "description": "Explorando o mundo de realtime (Unreal e Unity), criando workflows e ferramentas com Python - sempre aprendendo algo novo no caminho. 🎮🐍",
+    "tags": ["3D Artist", "Generalist Character", "Maya"],
+    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Pedro",
+    "site": "https://www.artstation.com/vm21",
+    "github": "https://github.com/vitormoreira3d"
+  },
+  {
+    "name": "Natanael Ferreira",
+    "description": "Ilustrador e aventureiro do código, explorando o mundo do Java e Figma. Apaixonado por criar arte e software que encantam.",
+    "tags": ["Ilustrador", "React", "Java"],
     "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Rafael",
-    "instagram": "https://instagram.com/example",
-    "linkedin": "https://linkedin.com/in/example",
-    "website": "https://example.com"
+    "linkedin": "https://www.linkedin.com/in/natanael-ferreira-soares-46966a173/",
+    "github": "https://github.com/Zaethyr"
   }
 ]

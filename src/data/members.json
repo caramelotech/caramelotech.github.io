@@ -53,8 +53,9 @@
     "name": "Natanael Ferreira",
     "description": "Ilustrador e aventureiro do código. Apaixonado por criar arte e software que encantam.",
     "tags": ["Ilustrador", "Javascript", "Java"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=Easton&earringsProbability=0&featuresProbability=0&glassesProbability=0&hairProbability=100&hair=short17&hairColor=4D3723",
-    "linkedin": "https://www.linkedin.com/in/natanael-ferreira-soares-46966a173/",
+    "photo": "/members/nate.png",
+    "linkedin": "https://www.linkedin.com/in/natanael-ferreira-soares-46966a173",
+    "instagram": "https://www.instagram.com/ukiyeol",
     "github": "https://github.com/Zaethyr"
   }
 ]

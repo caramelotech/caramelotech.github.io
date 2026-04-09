@@ -5,7 +5,6 @@ import carameloMascot from "@/assets/caramelo-mascot.png";
 const links = [
   { label: "Sobre", href: "#sobre" },
   { label: "O que fazemos", href: "#oque-fazemos" },
-  { label: "Tech", href: "#tech" },
   { label: "Contribuir", href: "#contribuir" },
   { label: "Junte-se", href: "#junte-se" },
 ];

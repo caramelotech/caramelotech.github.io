@@ -57,5 +57,14 @@
     "linkedin": "https://www.linkedin.com/in/natanael-ferreira-soares-46966a173",
     "instagram": "https://www.instagram.com/ukiyeol",
     "github": "https://github.com/Zaethyr"
+  },
+  {
+    "name": "Yuri Mota",
+    "description": "Criando produtos web, automações e soluções com PHP, React e Node.js.",
+    "tags": ["PHP", "WordPress", "React"],
+    "photo": "/members/yuri.png",
+    "website": "https://yurimota.com.br",
+    "linkedin": "https://www.linkedin.com/in/yurimotamelo",
+    "github": "https://github.com/YuriMotaTech"
   }
 ]

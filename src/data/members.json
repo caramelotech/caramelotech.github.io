@@ -45,7 +45,7 @@
     "name": "Vitor Gonçalves",
     "description": "Explorando o mundo de realtime, criando workflows e ferramentas com Python.",
     "tags": ["3D Artist", "Generalist", "Unreal", "Unity", "Maya"],
-    "photo": "https://api.dicebear.com/9.x/adventurer/svg?seed=JD&earringsProbability=0&featuresProbability=0&glassesProbability=0&hairProbability=100&hair=short17&hairColor=6a4e35",
+    "photo": "/members/vitu.png",
     "website": "https://www.artstation.com/vm21",
     "github": "https://github.com/vitormoreira3d"
   },
@@ -66,5 +66,12 @@
     "website": "https://yurimota.com.br",
     "linkedin": "https://www.linkedin.com/in/yurimotamelo",
     "github": "https://github.com/YuriMotaTech"
+  },
+  {
+    "name": "Maria Moreira",
+    "description": "Analista de testes/QA apaixonada por gestão de projetos. Movida a café e viagens. ☕✈️",
+    "tags": ["Testes de Software", "Product Management", "Agile"],
+    "photo": "/members/maria.svg",
+    "linkedin": "https://www.linkedin.com/in/maria-moreira-braga"
   }
 ]

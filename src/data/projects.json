@@ -1,0 +1,18 @@
+[
+  {
+    "id": "snake-battle",
+    "name": "Snake Battle",
+    "description": "Versão moderna e competitiva do clássico jogo da cobrinha. Duas cobras competem em um mapa fechado, comendo frutas para crescer enquanto evitam colisões.",
+    "tags": ["Phaser 3", "TypeScript", "Socket.io", "Express"],
+    "github": "https://github.com/caramelotech/snake-battle",
+    "status": "active"
+  },
+  {
+    "id": "migles",
+    "name": "Migles",
+    "description": "App multiplataforma para gerenciamento de eventos sociais. Permite que grupos organizem eventos com RSVP, waitlist e gestão de membros.",
+    "tags": ["NestJS", "React Native", "React", "Prisma", "PostgreSQL"],
+    "github": "https://github.com/caramelotech/migles",
+    "status": "wip"
+  }
+]

@@ -9,7 +9,7 @@ import ProjectCard from "@/components/ProjectCard";
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/types/project";
 
-const projects: Project[] = projectsData;
+const projects = projectsData as Project[];
 
 const ProjectsGrid = ({ items }: { items: Project[] }) => (
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

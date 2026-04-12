@@ -23,7 +23,7 @@ const ProjectsSection = () => {
         </p>
 
         <div className="px-12">
-          <Carousel opts={{ align: "start", loop: true }}>
+          <Carousel opts={{ align: "start", loop: true, slidesToScroll: 1, dragFree: false }}>
             <CarouselContent>
               {projects.map((project) => (
                 <CarouselItem

@@ -37,13 +37,13 @@ const ProjectCard = ({ project }: { project: Project }) => {
         {project.description}
       </p>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 justify-center">
         {project.tags.map((tag) => (
           <ProjectTag key={tag} label={tag} />
         ))}
       </div>
 
-      <div className="flex gap-2 mt-auto pt-2">
+      <div className="flex gap-2 mt-auto pt-2 justify-center">
         <Button variant="outline" size="sm" asChild>
           <a
             href={project.github}

@@ -14,5 +14,22 @@
     "tags": ["NestJS", "React Native", "React", "Prisma", "PostgreSQL"],
     "github": "https://github.com/caramelotech/migles",
     "status": "wip"
+  },
+  {
+    "id": "caramelotech-site",
+    "name": "Caramelo Tech Site",
+    "description": "Site institucional da comunidade Caramelo Tech, construído de forma colaborativa e open source.",
+    "tags": ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    "github": "https://github.com/caramelotech/caramelotech.github.io",
+    "demo": "https://caramelotech.github.io",
+    "status": "active"
+  },
+  {
+    "id": "ai4beginners",
+    "name": "AI4Beginners",
+    "description": "Repositório educacional com materiais e projetos introdutórios sobre Inteligência Artificial para iniciantes.",
+    "tags": ["Python", "Machine Learning", "AI"],
+    "github": "https://github.com/caramelotech/AI4beginners",
+    "status": "wip"
   }
 ]

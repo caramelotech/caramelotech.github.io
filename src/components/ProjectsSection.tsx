@@ -11,7 +11,17 @@ import type { Project } from "@/types/project";
 
 const projects = projectsData as Project[];
 
+// Embla needs enough slides beyond the viewport for loop to work.
+// Duplicate items when there are few projects to ensure smooth looping.
+const getCarouselItems = (items: Project[]): Project[] => {
+  if (items.length <= 3) return [...items, ...items, ...items];
+  if (items.length <= 6) return [...items, ...items];
+  return items;
+};
+
 const ProjectsSection = () => {
+  const carouselItems = getCarouselItems(projects);
+
   return (
     <section id="projetos" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
@@ -23,11 +33,11 @@ const ProjectsSection = () => {
         </p>
 
         <div className="px-12">
-          <Carousel opts={{ align: "start", loop: true, containScroll: false }}>
+          <Carousel opts={{ align: "start", loop: true }}>
             <CarouselContent>
-              {projects.map((project) => (
+              {carouselItems.map((project, index) => (
                 <CarouselItem
-                  key={project.id}
+                  key={`${project.id}-${index}`}
                   className="md:basis-1/2 lg:basis-1/3"
                 >
                   <ProjectCard project={project} />

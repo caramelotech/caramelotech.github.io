@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import carameloMascot from "@/assets/caramelo-mascot.png";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
   { label: "Sobre", href: "#sobre" },

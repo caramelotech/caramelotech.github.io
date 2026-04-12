@@ -5,7 +5,7 @@
     "description": "Versão moderna e competitiva do clássico jogo da cobrinha. Duas cobras competem em um mapa fechado, comendo frutas para crescer enquanto evitam colisões.",
     "tags": ["Phaser 3", "TypeScript", "Socket.io", "Express"],
     "github": "https://github.com/caramelotech/snake-battle",
-    "status": "active"
+    "status": "wip"
   },
   {
     "id": "migles",

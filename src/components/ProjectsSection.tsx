@@ -11,33 +11,7 @@ import type { Project } from "@/types/project";
 
 const projects = projectsData as Project[];
 
-const ProjectsGrid = ({ items }: { items: Project[] }) => (
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {items.map((project) => (
-      <ProjectCard key={project.id} project={project} />
-    ))}
-  </div>
-);
-
-const ProjectsCarousel = ({ items }: { items: Project[] }) => (
-  <div className="px-12">
-    <Carousel opts={{ align: "start", loop: true }}>
-      <CarouselContent>
-        {items.map((project) => (
-          <CarouselItem key={project.id} className="md:basis-1/2 lg:basis-1/3">
-            <ProjectCard project={project} />
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
-  </div>
-);
-
 const ProjectsSection = () => {
-  const useCarousel = projects.length > 3;
-
   return (
     <section id="projetos" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
@@ -48,11 +22,22 @@ const ProjectsSection = () => {
           Projetos open source criados e mantidos pela comunidade Caramelo Tech.
         </p>
 
-        {useCarousel ? (
-          <ProjectsCarousel items={projects} />
-        ) : (
-          <ProjectsGrid items={projects} />
-        )}
+        <div className="px-12">
+          <Carousel opts={{ align: "start", loop: true }}>
+            <CarouselContent>
+              {projects.map((project) => (
+                <CarouselItem
+                  key={project.id}
+                  className="md:basis-1/2 lg:basis-1/3"
+                >
+                  <ProjectCard project={project} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
       </div>
     </section>
   );

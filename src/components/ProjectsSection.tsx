@@ -6,10 +6,11 @@ import {
   CarouselNext,
 } from "@/components/ui/carousel";
 import ProjectCard from "@/components/ProjectCard";
+import { z } from "zod";
 import projectsData from "@/data/projects.json";
-import type { Project } from "@/types/project";
+import { ProjectSchema } from "@/types/project";
 
-const projects = projectsData as Project[];
+const projects = z.array(ProjectSchema).parse(projectsData);
 
 const ProjectsSection = () => {
   return (

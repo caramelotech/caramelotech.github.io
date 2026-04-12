@@ -1,9 +1,13 @@
-export interface Project {
-  id: string;
-  name: string;
-  description: string;
-  tags: string[];
-  github: string;
-  demo?: string;
-  status?: "active" | "wip" | "archived";
-}
+import { z } from "zod";
+
+export const ProjectSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string(),
+  tags: z.array(z.string()),
+  github: z.string(),
+  demo: z.string().optional(),
+  status: z.enum(["active", "wip", "archived"]).optional(),
+});
+
+export type Project = z.infer<typeof ProjectSchema>;

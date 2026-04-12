@@ -14,9 +14,7 @@ const HeroSection = () => {
           <img
             src={carameloMascot}
             alt="Caramelo Tech mascote"
-            width={200}
-            height={200}
-            className="mx-auto drop-shadow-2xl"
+            className="mx-auto drop-shadow-2xl w-32 h-32 md:w-44 md:h-44 lg:w-52 lg:h-52"
           />
         </div>
 

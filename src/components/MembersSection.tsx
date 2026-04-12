@@ -6,10 +6,11 @@ import {
   CarouselNext,
 } from "@/components/ui/carousel";
 import MemberCard from "@/components/MemberCard";
+import { z } from "zod";
 import membersData from "@/data/members.json";
-import type { Member } from "@/types/member";
+import { MemberSchema } from "@/types/member";
 
-const members: Member[] = membersData;
+const members = z.array(MemberSchema).parse(membersData);
 
 const MembersSection = () => {
   return (

@@ -25,11 +25,11 @@
     "status": "active"
   },
   {
-    "id": "ai4beginners",
-    "name": "AI4Beginners",
+    "id": "AILabs",
+    "name": "AILabs",
     "description": "Repositório educacional com materiais e projetos introdutórios sobre Inteligência Artificial para iniciantes.",
     "tags": ["Python", "Machine Learning", "AI"],
-    "github": "https://github.com/caramelotech/AI4beginners",
+    "github": "https://github.com/caramelotech/ai-labs",
     "status": "wip"
   }
 ]

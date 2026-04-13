@@ -5,7 +5,8 @@
     "description": "Versão moderna e competitiva do clássico jogo da cobrinha. Duas cobras competem em um mapa fechado, comendo frutas para crescer enquanto evitam colisões.",
     "tags": ["Phaser 3", "TypeScript", "Socket.io", "Express"],
     "github": "https://github.com/caramelotech/snake-battle",
-    "status": "wip"
+    "status": "wip",
+    "category": "project"
   },
   {
     "id": "migles",
@@ -13,7 +14,8 @@
     "description": "App multiplataforma para gerenciamento de eventos sociais. Permite que grupos organizem eventos com RSVP, waitlist e gestão de membros.",
     "tags": ["NestJS", "React Native", "React", "Prisma", "PostgreSQL"],
     "github": "https://github.com/caramelotech/migles",
-    "status": "wip"
+    "status": "wip",
+    "category": "project"
   },
   {
     "id": "caramelotech-site",
@@ -22,14 +24,67 @@
     "tags": ["React", "TypeScript", "Tailwind CSS", "Vite"],
     "github": "https://github.com/caramelotech/caramelotech.github.io",
     "demo": "https://caramelotech.github.io",
-    "status": "active"
+    "status": "active",
+    "category": "project"
   },
   {
-    "id": "AILabs",
-    "name": "AILabs",
-    "description": "Repositório educacional com materiais e projetos introdutórios sobre Inteligência Artificial para iniciantes.",
+    "id": "clojure-labs",
+    "name": "Clojure Labs",
+    "description": "Laboratório de Clojure com exercícios práticos, exemplos e anotações para aprendizado hands-on de programação funcional.",
+    "tags": ["Clojure", "Programação Funcional"],
+    "github": "https://github.com/caramelotech/clojure-labs",
+    "demo": "https://caramelotech.github.io/clojure-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "web-dev-labs",
+    "name": "Web Dev Labs",
+    "description": "Laboratório de desenvolvimento web com exercícios práticos de HTML, CSS, JavaScript e frameworks modernos.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/caramelotech/web-dev-labs",
+    "demo": "https://caramelotech.github.io/web-dev-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "ruby-labs",
+    "name": "Ruby Labs",
+    "description": "Laboratório de Ruby com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
+    "tags": ["Ruby"],
+    "github": "https://github.com/caramelotech/ruby-labs",
+    "demo": "https://caramelotech.github.io/ruby-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "ai-labs",
+    "name": "AI Labs",
+    "description": "Laboratório de Inteligência Artificial com materiais introdutórios, projetos práticos e anotações para iniciantes.",
     "tags": ["Python", "Machine Learning", "AI"],
     "github": "https://github.com/caramelotech/ai-labs",
-    "status": "wip"
+    "demo": "https://caramelotech.github.io/ai-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "qa-labs",
+    "name": "QA Labs",
+    "description": "Laboratório de Quality Assurance com exercícios práticos de testes, automação e boas práticas de qualidade de software.",
+    "tags": ["QA", "Testing", "Automação"],
+    "github": "https://github.com/caramelotech/qa-labs",
+    "demo": "https://caramelotech.github.io/qa-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "java-labs",
+    "name": "Java Labs",
+    "description": "Laboratório de Java com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
+    "tags": ["Java"],
+    "github": "https://github.com/caramelotech/java-labs",
+    "demo": "https://caramelotech.github.io/java-labs",
+    "status": "active",
+    "category": "lab"
   }
 ]

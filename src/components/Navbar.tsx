@@ -5,9 +5,8 @@ import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
   { label: "Sobre", href: "#sobre" },
-  { label: "O que fazemos", href: "#oque-fazemos" },
-  { label: "Contribuir", href: "#contribuir" },
-  { label: "Junte-se", href: "#junte-se" },
+  { label: "Atividades & Projetos", href: "#oque-fazemos" },
+  { label: "Comunidade", href: "#comunidade" },
 ];
 
 const Navbar = () => {

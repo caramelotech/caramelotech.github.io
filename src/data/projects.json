@@ -18,6 +18,16 @@
     "category": "project"
   },
   {
+    "id": "chapadinhos",
+    "name": "Chapadinhos",
+    "description": "Plataforma web-native open-source para desafios de atividade física entre amigos. Participantes registram atividades diárias, acumulam pontos e competem em leaderboards em tempo real.",
+    "tags": ["Fitness", "Social", "React", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/caramelotech/chapadinhos.github.io",
+    "demo": "https://chapadinhos.vercel.app/",
+    "status": "wip",
+    "category": "project"
+  },
+  {
     "id": "caramelotech-site",
     "name": "Caramelo Tech Site",
     "description": "Site institucional da comunidade Caramelo Tech, construído de forma colaborativa e open source.",
@@ -31,7 +41,7 @@
     "id": "clojure-labs",
     "name": "Clojure Labs",
     "description": "Laboratório de Clojure com exercícios práticos, exemplos e anotações para aprendizado hands-on de programação funcional.",
-    "tags": ["Clojure", "Programação Funcional"],
+    "tags": ["Clojure", "Programação Funcional", "Backend"],
     "github": "https://github.com/caramelotech/clojure-labs",
     "demo": "https://caramelotech.github.io/clojure-labs",
     "status": "active",
@@ -51,7 +61,7 @@
     "id": "ruby-labs",
     "name": "Ruby Labs",
     "description": "Laboratório de Ruby com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
-    "tags": ["Ruby"],
+    "tags": ["Ruby", "Programação Orientada a Objetos", "Backend"],
     "github": "https://github.com/caramelotech/ruby-labs",
     "demo": "https://caramelotech.github.io/ruby-labs",
     "status": "active",
@@ -81,9 +91,19 @@
     "id": "java-labs",
     "name": "Java Labs",
     "description": "Laboratório de Java com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
-    "tags": ["Java"],
+    "tags": ["Java", "Programação Orientada a Objetos", "Backend"],
     "github": "https://github.com/caramelotech/java-labs",
     "demo": "https://caramelotech.github.io/java-labs",
+    "status": "active",
+    "category": "lab"
+  },
+  {
+    "id": "data-labs",
+    "name": "Data Labs",
+    "description": "Laboratório de Ciência de Dados com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
+    "tags": ["Data Science", "Python", "Machine Learning"],
+    "github": "https://github.com/caramelotech/data-labs",
+    "demo": "https://caramelotech.github.io/data-labs",
     "status": "active",
     "category": "lab"
   }

@@ -15,7 +15,7 @@ const ways = [
 
 const ContributeSection = () => {
   return (
-    <div className="max-w-4xl mx-auto text-center bg-muted/50 rounded-2xl p-8 md:p-12 border border-border">
+    <div className="max-w-4xl mx-auto text-center">
       <h3 className="text-2xl md:text-3xl font-bold font-heading mb-4">
         🤝 Como <span className="text-gradient">contribuir</span>
       </h3>

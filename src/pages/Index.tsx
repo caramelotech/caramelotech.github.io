@@ -46,19 +46,21 @@ const Index = () => {
 
           <MembersSection />
 
-          <div className="py-16">
-            <SectionDivider />
           </div>
+        </section>
 
+        {/* Faixa destacada - Como contribuir */}
+        <section className="py-20 px-4 bg-muted/50">
           <ContributeSection />
 
-          <div className="py-16">
-            <SectionDivider />
-          </div>
+        </section>
 
-          <JoinSection />
-        </div>
-      </section>
+        {/* Junte-se a nós */}
+        <section className="py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <JoinSection />
+          </div>
+        </section>
 
       <Footer />
     </div>

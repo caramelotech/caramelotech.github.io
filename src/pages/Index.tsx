@@ -50,7 +50,8 @@ const Index = () => {
         </section>
 
         {/* Faixa destacada - Como contribuir */}
-        <section className="py-20 px-4 bg-muted/50">
+        <section className="py-20 px-4 relative">
+          <div className="absolute inset-0 bg-primary/[0.02]" />
           <ContributeSection />
 
         </section>

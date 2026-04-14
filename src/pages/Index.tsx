@@ -52,7 +52,9 @@ const Index = () => {
         {/* Faixa destacada - Como contribuir */}
         <section className="py-20 px-4 relative">
           <div className="absolute inset-0 bg-primary/[0.02]" />
-          <ContributeSection />
+          <div className="relative z-10">
+            <ContributeSection />
+          </div>
 
         </section>
 

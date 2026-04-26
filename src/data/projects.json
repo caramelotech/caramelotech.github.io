@@ -5,6 +5,7 @@
     "description": "Versão moderna e competitiva do clássico jogo da cobrinha. Duas cobras competem em um mapa fechado, comendo frutas para crescer enquanto evitam colisões.",
     "tags": ["Phaser 3", "TypeScript", "Socket.io", "Express"],
     "github": "https://github.com/caramelotech/snake-battle",
+    "demo": "https://caramelotech.com.br/snake-battle",
     "status": "wip",
     "category": "project"
   },
@@ -33,7 +34,7 @@
     "description": "Site institucional da comunidade Caramelo Tech, construído de forma colaborativa e open source.",
     "tags": ["React", "TypeScript", "Tailwind CSS", "Vite"],
     "github": "https://github.com/caramelotech/caramelotech.github.io",
-    "demo": "https://caramelotech.github.io",
+    "demo": "https://caramelotech.com.br",
     "status": "active",
     "category": "project"
   },
@@ -43,7 +44,7 @@
     "description": "Laboratório de Clojure com exercícios práticos, exemplos e anotações para aprendizado hands-on de programação funcional.",
     "tags": ["Clojure", "Programação Funcional", "Backend"],
     "github": "https://github.com/caramelotech/clojure-labs",
-    "demo": "https://caramelotech.github.io/clojure-labs",
+    "demo": "https://caramelotech.com.br/clojure-labs",
     "status": "active",
     "category": "lab"
   },
@@ -53,7 +54,7 @@
     "description": "Laboratório de desenvolvimento web com exercícios práticos de HTML, CSS, JavaScript e frameworks modernos.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/caramelotech/web-dev-labs",
-    "demo": "https://caramelotech.github.io/web-dev-labs",
+    "demo": "https://caramelotech.com.br/web-dev-labs",
     "status": "active",
     "category": "lab"
   },
@@ -63,7 +64,7 @@
     "description": "Laboratório de Ruby com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
     "tags": ["Ruby", "Programação Orientada a Objetos", "Backend"],
     "github": "https://github.com/caramelotech/ruby-labs",
-    "demo": "https://caramelotech.github.io/ruby-labs",
+    "demo": "https://caramelotech.com.br/ruby-labs",
     "status": "active",
     "category": "lab"
   },
@@ -73,7 +74,7 @@
     "description": "Laboratório de Inteligência Artificial com materiais introdutórios, projetos práticos e anotações para iniciantes.",
     "tags": ["Python", "Machine Learning", "AI"],
     "github": "https://github.com/caramelotech/ai-labs",
-    "demo": "https://caramelotech.github.io/ai-labs",
+    "demo": "https://caramelotech.com.br/ai-labs",
     "status": "active",
     "category": "lab"
   },
@@ -83,7 +84,7 @@
     "description": "Laboratório de Quality Assurance com exercícios práticos de testes, automação e boas práticas de qualidade de software.",
     "tags": ["QA", "Testing", "Automação"],
     "github": "https://github.com/caramelotech/qa-labs",
-    "demo": "https://caramelotech.github.io/qa-labs",
+    "demo": "https://caramelotech.com.br/qa-labs",
     "status": "active",
     "category": "lab"
   },
@@ -93,7 +94,7 @@
     "description": "Laboratório de Java com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
     "tags": ["Java", "Programação Orientada a Objetos", "Backend"],
     "github": "https://github.com/caramelotech/java-labs",
-    "demo": "https://caramelotech.github.io/java-labs",
+    "demo": "https://caramelotech.com.br/java-labs",
     "status": "active",
     "category": "lab"
   },
@@ -103,7 +104,7 @@
     "description": "Laboratório de Ciência de Dados com exercícios, exemplos práticos e anotações organizadas para aprendizado hands-on.",
     "tags": ["Data Science", "Python", "Machine Learning"],
     "github": "https://github.com/caramelotech/data-labs",
-    "demo": "https://caramelotech.github.io/data-labs",
+    "demo": "https://caramelotech.com.br/data-labs",
     "status": "active",
     "category": "lab"
   }

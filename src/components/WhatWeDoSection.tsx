@@ -1,4 +1,5 @@
 import { activities, people, techs } from "@/data/whatWeDo";
+import Tag from "@/components/Tag";
 
 const WhatWeDoSection = () => {
   return (
@@ -13,9 +14,9 @@ const WhatWeDoSection = () => {
       </p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
-        {activities.map((item, i) => (
+        {activities.map((item) => (
           <div
-            key={i}
+            key={item.text}
             className="flex items-center gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-muted/50 transition-all duration-300 group"
           >
             <span className="text-3xl group-hover:scale-110 transition-transform">
@@ -32,13 +33,10 @@ const WhatWeDoSection = () => {
             🧩 Uma mistura diversa de entusiastas
           </h3>
           <div className="flex flex-wrap gap-3">
-            {people.map((p, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-border bg-card text-foreground font-medium hover:border-primary/40 transition-colors"
-              >
+            {people.map((p) => (
+              <Tag key={p.label}>
                 <span>{p.emoji}</span> {p.label}
-              </span>
+              </Tag>
             ))}
           </div>
         </div>
@@ -48,13 +46,10 @@ const WhatWeDoSection = () => {
             ⚙️ Trabalhando com diversas tecnologias
           </h3>
           <div className="flex flex-wrap gap-3">
-            {techs.map((t, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-border bg-card text-foreground font-medium hover:border-primary/40 transition-colors"
-              >
+            {techs.map((t) => (
+              <Tag key={t.label}>
                 <span>{t.emoji}</span> {t.label}
-              </span>
+              </Tag>
             ))}
           </div>
         </div>

@@ -1,12 +1,7 @@
 import { Github, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const values = [
-  { emoji: "🫶", text: "Colaboração acima de competição" },
-  { emoji: "📚", text: "Aprender fazendo" },
-  { emoji: "🧩", text: "Diversidade de ideias e pessoas" },
-  { emoji: "🐶", text: "Se divertir enquanto coda" },
-];
+import Tag from "@/components/Tag";
+import { values } from "@/data/values";
 
 const JoinSection = () => {
   return (
@@ -17,13 +12,10 @@ const JoinSection = () => {
       <p className="text-muted-foreground text-lg mb-10">Acreditamos em:</p>
 
       <div className="flex flex-wrap justify-center gap-4 mb-12">
-        {values.map((v, i) => (
-          <span
-            key={i}
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-border bg-card text-foreground font-medium hover:border-primary/40 transition-colors"
-          >
+        {values.map((v) => (
+          <Tag key={v.text}>
             <span>{v.emoji}</span> {v.text}
-          </span>
+          </Tag>
         ))}
       </div>
 

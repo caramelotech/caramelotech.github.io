@@ -1,17 +1,4 @@
-import { Star, Bug, GitPullRequest, MessageSquare } from "lucide-react";
-
-const ways = [
-  {
-    icon: <Star className="h-6 w-6" />,
-    text: "Dê uma ⭐ nos repos que curtir",
-  },
-  {
-    icon: <Bug className="h-6 w-6" />,
-    text: "Abra issues com bugs ou sugestões",
-  },
-  { icon: <GitPullRequest className="h-6 w-6" />, text: "Envie pull requests" },
-  { icon: <MessageSquare className="h-6 w-6" />, text: "Compartilhe ideias" },
-];
+import { ways } from "@/data/contribute";
 
 const ContributeSection = () => {
   return (
@@ -25,12 +12,14 @@ const ContributeSection = () => {
       </p>
 
       <div className="grid sm:grid-cols-2 gap-4">
-        {ways.map((w, i) => (
+        {ways.map((w) => (
           <div
-            key={i}
+            key={w.text}
             className="flex items-center gap-4 p-6 rounded-xl card-gradient border border-border hover:border-primary/40 transition-all duration-300 text-left"
           >
-            <div className="text-primary">{w.icon}</div>
+            <div className="text-primary">
+              <w.Icon className="h-6 w-6" />
+            </div>
             <span className="text-foreground font-medium">{w.text}</span>
           </div>
         ))}

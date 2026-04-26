@@ -30,8 +30,8 @@ const MembersSection = () => {
           }}
         >
           <CarouselContent>
-            {members.map((member, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            {members.map((member) => (
+              <CarouselItem key={member.name} className="md:basis-1/2 lg:basis-1/3">
                 <MemberCard member={member} />
               </CarouselItem>
             ))}

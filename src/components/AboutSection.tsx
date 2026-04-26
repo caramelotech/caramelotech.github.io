@@ -1,25 +1,4 @@
-import { Users, Heart, Globe } from "lucide-react";
-
-const highlights = [
-  {
-    icon: <Users className="h-8 w-8 text-primary" />,
-    title: "Comunidade de mentes curiosas",
-    description:
-      "Mais do que um grupo de tech - somos pessoas que adoram criar, aprender e se ajudar.",
-  },
-  {
-    icon: <Globe className="h-8 w-8 text-primary" />,
-    title: "De Fortaleza pro mundo",
-    description:
-      "Baseados no Ceará, mas abertos a qualquer pessoa no mundo que queira colaborar.",
-  },
-  {
-    icon: <Heart className="h-8 w-8 text-primary" />,
-    title: "Todo mundo é bem-vindo",
-    description:
-      "Iniciante ou experiente, se você curte construir coisas legais - seu lugar é aqui!",
-  },
-];
+import { highlights } from "@/data/about";
 
 const AboutSection = () => {
   return (
@@ -36,12 +15,12 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {highlights.map((item, i) => (
             <div
-              key={i}
+              key={item.title}
               className="card-gradient rounded-xl p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:glow-border"
               style={{ animationDelay: `${i * 0.15}s` }}
             >
               <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit">
-                {item.icon}
+                <item.Icon className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-bold font-heading mb-2 text-foreground">
                 {item.title}

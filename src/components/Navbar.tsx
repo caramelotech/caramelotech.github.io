@@ -2,12 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import carameloMascot from "@/assets/caramelo-mascot.png";
 import ThemeToggle from "@/components/ThemeToggle";
-
-const links = [
-  { label: "Sobre", href: "#sobre" },
-  { label: "Atividades & Projetos", href: "#oque-fazemos" },
-  { label: "Comunidade", href: "#comunidade" },
-];
+import { navLinks } from "@/data/navigation";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
 
-    links.forEach(({ href }) => {
+    navLinks.forEach(({ href }) => {
       const id = href.slice(1);
       const el = document.getElementById(id);
       if (!el) return;
@@ -46,7 +41,7 @@ const Navbar = () => {
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6">
-          {links.map((l) => {
+          {navLinks.map((l) => {
             const isActive = activeSection === l.href.slice(1);
             return (
               <a
@@ -79,7 +74,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-background border-b border-border px-4 pb-4">
-          {links.map((l) => {
+          {navLinks.map((l) => {
             const isActive = activeSection === l.href.slice(1);
             return (
               <a
